@@ -1,0 +1,4 @@
+man - mannual to lookup command
+pwd - to see corrent directory 
+cd - to change directory
+mkdir - to make a directory
