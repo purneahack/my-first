@@ -6,7 +6,7 @@ $link = mysqli_connect('localhost', 'root', 'moinuddin@1', 'slcsa');
 	<table>
 		<tr>
 			<td>Select State</td>
-			<td><select id="statedd" class="statedd" onchange="change_state(this.value)">
+			<td><select id="statedd" class="statedd" onchange="change_state()">
 				<option value="">Select</option>
 				<?php 
 					$res = mysqli_query($link,"SELECT * FROM state_code");
